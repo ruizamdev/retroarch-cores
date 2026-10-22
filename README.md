@@ -3,7 +3,11 @@
 **Plataforma:** Linux / CachyOS  
 **Instalación:** RetroArch mediante Steam  
 **Hardware:** Lenovo Legion 5 — AMD Radeon integrada + NVIDIA GTX 1650  
-**Cores:** Dolphin, LRPS2 y Mupen64Plus-Next
+**Cores:**
+
+- Dolphin
+- LRPS2
+- Mupen64Plus-Next
 
 ---
 
