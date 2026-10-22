@@ -40,7 +40,7 @@ set -gx VAR $HOME/.local/share/Steam/steamapps/common/RetroArch
 Y el fichero de configuración de fish se encuentra en la siguiente ruta:
 
 ```bash
-$HOME/.config/fish/config.fish
+~/.config/fish/config.fish
 ```
 
 Solo se agrega la declaración de la variable dentro para tenerla disponible en la shell, los flags `-g` y `-x` son para otorgarle un scope global y capacidad de exportar la variable, respectivamente.
@@ -83,11 +83,26 @@ sudo pacman -S --needed curl unzip git
 
 ### Repositorio oficial de cores
 
+**Núcleos:**
 https://buildbot.libretro.com/nightly/linux/x86_64/latest/
+
+**Ficheros info:**
+https://raw.githubusercontent.com/libretro/libretro-core-info/master
 
 Los archivos disponibles pueden cambiar con el tiempo. Verificar su existencia si alguna descarga devuelve un error 404.
 
 ---
+
+## 3. Lista de Núcleos
+
+### PlayStation
+
+- [Playstation 2](cores/ps2.md)
+
+### Nintendo
+
+- [Nintendo64](cores/#)
+- [GameCube/Wii](cores/gamecube-wii.md)
 
 ---
 
